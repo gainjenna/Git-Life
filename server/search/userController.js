@@ -33,7 +33,6 @@ module.exports = function(body, res){
         return callback(err);
       }
       var contributors = JSON.parse(contributor);
-
         contributors.forEach(function(element, index){
             if (userObj[element.login]){
               userObj[element.login].count++;
