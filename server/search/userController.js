@@ -28,11 +28,11 @@ module.exports = function(body, res){
   var userObj = {};
 
   async.forEachOf(itemGroup, function (value, key, callback) {
-    gitHTTP('GET', itemGroup[key].contributors_url + '?', function(err, response, contributor){
+    gitHTTP('GET', itemGroup[key].contributors_url + '?', function(err, response, contributors){
       if(err){
         return callback(err);
       }
-      var contributors = JSON.parse(contributor);
+      var contributors = JSON.parse(contributors);
 
         contributors.forEach(function(element, index){
             if (userObj[element.login]){

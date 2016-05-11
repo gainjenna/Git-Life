@@ -30,6 +30,7 @@
   padding-left: 10px;
 }
 
+<<<<<<< 55180aff0f53a9429e3f25f3540fb42121cda2dc
 
 .divNewRepos {
   display: block;
@@ -38,6 +39,8 @@
 .imgNewOrg {
   max-width: 100px;
 }
+=======
+>>>>>>> Style: Added collections back in
 .stylish-input-group .input-group-addon{
     background: white !important;
 }
@@ -62,7 +65,7 @@
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
-    margin: 5px 5px 5px 5px;
+    margin: 2px 2px 2px 2px;
 }
 
 .hvr-grow:hover,

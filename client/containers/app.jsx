@@ -16,7 +16,6 @@ class App extends Component {
   render(){
     return (
       <div>
-<<<<<<< bcce5b396a9ccbeb6f5a63e73ad0cf8d66480a08
           <div>
             <div className="row">
               <div className="col s12">
@@ -32,15 +31,11 @@ class App extends Component {
                 </ul>
               </div>
             </div>
-
           </div>
-
-=======
-          <div >
+          <div className="nav-wrapper red accent-1">
             <SearchBar searchTerm={this.props.term} onRequest={this.props.actions.searchGitHub} onSearchTermChange={this.props.actions.updateSearchTerm}/>
             <LanguageSelect />
           </div>
->>>>>>> Style: Added minor styling
         {this.props.children}
       </div>
     );
